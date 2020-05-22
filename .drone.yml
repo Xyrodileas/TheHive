@@ -55,6 +55,7 @@ steps:
         - ui/bower_components
     volumes: [{name: cache, path: /cache}]
 
+
   - name: publish-package
     image: thehiveproject/drone-bintray
     settings:
