@@ -140,7 +140,7 @@ steps:
     settings:
       context: target/docker/stage
       dockerfile: target/docker/stage/Dockerfile
-      repo: thehiveproject/thehive
+      repo: xyrodileas/thehive
       auto_tag: true
       username: {from_secret: docker_username}
       password: {from_secret: docker_password}
